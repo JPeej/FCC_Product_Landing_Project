@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+}
+
+#header {
+  font-family: Raleway, sans-serif;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #EEE;
+  color: #0356A2;
+  align-items: center;
+}
+
+#header-img {
+  height:60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color:#0356A2;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+nav a:hover {
+  color: #3278B4
+}
+
+#company {
+  margin-left: 40px;
+}
+
+.hero {
+  padding-top: 81px;
+  display: flex;
+  background-color: #3278B4;
+  flex-wrap: wrap;
+}
+
+#bear-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-descr {
+  padding-top: 20px;
+  padding-bottom: : 20px;
+  color: #EEE;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  max-width: 500px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#bearpods {
+  font-family: Raleway, sans-serif;
+  font-weight: lighter;
+}
+
+#bp-descr {
+  font-family: Montserrat, sans-serif;
+}
+
+#button {
+  font-family: Raleway, sans-serif;
+  display: inline-grid;
+  width: 75px;
+  height:20px;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #0356A2;
+  color: #EEE;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Our-Story {
+  padding: 30px 40px;
+  background-color: #0356A2;
+  color: #EEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.OS-within {
+  max-width: 760px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#Our-Story-Title {
+  font-family: Raleway, sans-serif;
+  font-weight: lighter;
+}
+
+.Our-Story-P {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+}
+
+.quote {
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+}
+
+ #video {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+.contact {
+  text-align: center;
+  padding: 30px;
+  background-color: #EEE;
+  font-family: Montserrat, sans-serif;
+}
+
+#email {
+  max-width: 100%
+  max-height: auto;
+  border-radius: 5px;
+  border-top: 3px;
+  border-left: 3px;
+  border-color: #3278B4;
+}
+
+#submit {
+  width: 70px;
+  height: auto;
+  border-radius: 5px;
+  border-top: 3px;
+  border-left: 3px;
+  border-color: #3278B4;
+}
+
+@media screen and (max-width: 768px;) {
+  #submit {
+    display: flex;
+  }
+}
+
+.buttons {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
